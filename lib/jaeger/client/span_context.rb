@@ -69,7 +69,6 @@ module Jaeger
       def id_to_thrift_int(id)
         return unless id
 
-        puts id
         id -= MAX_UNSIGNED_ID if id > MAX_SIGNED_ID
         id
       end
