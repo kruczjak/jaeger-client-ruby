@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jaeger/client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'jaeger-client'
+  spec.name          = 'boost-jaeger-client'
   spec.version       = Jaeger::Client::VERSION
-  spec.authors       = ['SaleMove TechMovers']
-  spec.email         = ['techmovers@salemove.com']
+  spec.authors       = ['kruczjak', 'SaleMove TechMovers']
+  spec.email         = ['kruczjak@gmail.com']
 
   spec.summary       = 'OpenTracing Tracer implementation for Jaeger in Ruby'
   spec.description   = ''
